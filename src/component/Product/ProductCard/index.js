@@ -28,7 +28,7 @@ const ProductCard = ({el}) => {
         }
     }
     return (
-        <div className="flex w-[300px] mx-auto  rounded-md  ">
+        <div className="flex w-[300px] mx-auto sticky top-0  ease-in-out  rounded-md  ">
             <div
                 className=" max-w-sm bg-white   border border-gray-200 rounded-md  shadow dark:bg-gray-800 dark:border-gray-700">
                <Link to={`/details/${el.id}`} >

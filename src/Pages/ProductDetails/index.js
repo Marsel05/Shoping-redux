@@ -43,7 +43,7 @@ const ProductDetails = () => {
 
     const {category,description,image,title} = details
     return (
-        <div className="flex items-start justify-evenly w-full py-[50px]">
+        <div className="flex  items-start justify-evenly w-full py-[50px]">
                 <img src={image} width={400}  alt="img"/>
             <div className="p-[100px] bg-gray-200 bg-blur-2xl  ">
                 <h1 className="text-blue-600 font-medium text-3xl">{title}</h1>
